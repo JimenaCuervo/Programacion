@@ -1,5 +1,5 @@
 GITHUB
-#include "stidio.h" 
+#include "stdio.h" 
 
   
 
@@ -10,5 +10,6 @@ void main ( void )
 { 
 
     printf("I AM JC"); 
-
+    printf("Clase de programacion");
+    printf("Septiembre");
 } 
