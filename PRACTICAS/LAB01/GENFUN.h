@@ -1,13 +1,21 @@
 typedef unsigned char uint8;
 typedef unsigned short uint16;
 
-#define FACTORCONVERSASCII 32
-#define LOWER_BOUND         80
-#define ASCII_CODE_MSET    36
-#define ASCII_LOW_TRESHOLD_TO_ON     65 
-#define ASCII_HIGH_THRESHOLD_CAPSON_TO_OFF        123            
-#define ASCII_LOW_THRESHOLD_CAPSON_TO_OFF        96            
-   
+
+#define ASCII_HIGH_THRESHOLD_CAPSON_TO_OFF        122           
+#define ASCII_TARGET_CODE						108
+#define ASCII_LOW_THRESHOLD_CAPSON_TO_OFF        97            
+
+#define ASCII_LOW_TRESHOLD_TO_ON                65  
+#define ASCII_CONVERSION_FACTOR					32    
+#define ASCII_HIGH_TRESHOLD_TO_ON				90
+#define ASCII_CODE_MEMSET						36
+#define CHAR_HIGH_THRESHOLD						256
+#define ASCII_CODE_MEMSET                       36   
+#define UPPER_BOUND								180         
+#define LOWER_BOUND                             80            
+
+
 
 
 void GENFUN_vCapsOn ( uint8 *pu8Src, uint8 u8SizeOfList ); 
