@@ -5,8 +5,6 @@
 
 void main ( void )
 {
-	uint8 var[6]="renata";
-	uint8 var2[0]=" ";
 
 	GENFUN_vCapsOn(&var,6);
 	
