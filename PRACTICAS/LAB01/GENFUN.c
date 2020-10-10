@@ -42,7 +42,7 @@ void GENFUN_vCapsOff (uint8 *pu8Src, uint8 u8SizeOfList)
 
      {
 
-         if( *pu8Src INICIOASCII_MINUSC >=  && *pu8Src <= ASCII_HIGH_TRESHOLD_TO_ON )
+         if( *pu8Src INICIOASCII_MINUSC >=  && *pu8Src <= INICIOASCII_MAYUSC )
 
          {
 
